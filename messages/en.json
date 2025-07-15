@@ -27,5 +27,40 @@
   "Metadata": {
     "title": "The Joy of React",
     "description": "Eulier's Personal notes"
+  },
+  "Content": {
+    "module1": {
+      "section1": {
+        "title": "Introduction",
+        "description": "React has a steep learning curve, because this was designed not to be friendly to developers but to solve Facebook problems when writing and maintaining UI.",
+        "descriptionList": {
+          "title": "The concepts that can trip people up - like thinking in terms of :",
+          "list": [
+            {
+              "id": 0,
+              "description": "Unidirectional data flow"
+            },
+            {
+              "id": 1,
+              "description": "When and Why components re-render"
+            },
+            {
+              "id": 2,
+              "description": "Grasping the mental model of “UI as a function of state"
+            }
+          ]
+        }
+      },
+      "section2": {
+        "title": "We’re going to interact with some exercises",
+        "description": "",
+        "imageList": ["", "", ""]
+      },
+      "section3": {
+        "title": "Projects",
+        "description": "",
+        "imageList": ["", "", ""]
+      }
+    }
   }
 }
