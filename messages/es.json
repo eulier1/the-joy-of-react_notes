@@ -27,5 +27,66 @@
   "Metadata": {
     "title": "The Joy of React",
     "description": "Notas personales de Eulier"
+  },
+  "Content": {
+    "module1": {
+      "section1": {
+        "title": "Introducción",
+        "description": "React tiene una curva de aprendizaje pronunciada, porque esto fue diseñado no para ser amigable con los desarrolladores sino para resolver los problemas de Facebook al escribir y mantener UI.",
+        "descriptionList": {
+          "title": "Los conceptos que pueden complicar a las personas - como pensar en términos de:",
+          "list": [
+            {
+              "id": 0,
+              "description": "Flujo de datos unidireccional"
+            },
+            {
+              "id": 1,
+              "description": "Cuándo y por qué los componentes se vuelven a renderizar"
+            },
+            {
+              "id": 2,
+              "description": "Comprender el modelo mental de las interfaces de usuario como una función del estado"
+            }
+          ]
+        }
+      },
+      "section2": {
+        "title": "Vamos a interactuar con algunos ejercicios",
+        "description": "",
+        "imageList": [
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615165/Screenshot_2025-06-18_at_5.24.36_PM_scdce4.png",
+            "alt": "Ejemplo de ejercicio de componente React 1"
+          },
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615165/Screenshot_2025-06-18_at_5.22.28_PM_o2xtni.png",
+            "alt": "Ejemplo de ejercicio de componente React 2"
+          },
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615245/Screenshot_2025-06-18_at_5.22.00_PM_uoibhh.png",
+            "alt": "Ejemplo de ejercicio de componente React 3"
+          }
+        ]
+      },
+      "section3": {
+        "title": "Proyectos",
+        "description": "",
+        "imageList": [
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615171/Screenshot_2025-06-18_at_5.24.42_PM_mb9gid.png",
+            "alt": "Ejemplo de proyecto React 1"
+          },
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615288/Screenshot_2025-06-18_at_5.25.10_PM_gfuezy.png",
+            "alt": "Ejemplo de proyecto React 2"
+          },
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615304/Screenshot_2025-06-18_at_5.25.21_PM_gmnf3m.png",
+            "alt": "Ejemplo de proyecto React 3"
+          }
+        ]
+      }
+    }
   }
 }
