@@ -54,12 +54,38 @@
       "section2": {
         "title": "We’re going to interact with some exercises",
         "description": "",
-        "imageList": ["", "", ""]
+        "imageList": [
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615165/Screenshot_2025-06-18_at_5.24.36_PM_scdce4.png",
+            "alt": "React component exercise example 1"
+          },
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615165/Screenshot_2025-06-18_at_5.22.28_PM_o2xtni.png",
+            "alt": "React component exercise example 2"
+          },
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615245/Screenshot_2025-06-18_at_5.22.00_PM_uoibhh.png",
+            "alt": "React component exercise example 3"
+          }
+        ]
       },
       "section3": {
         "title": "Projects",
         "description": "",
-        "imageList": ["", "", ""]
+        "imageList": [
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615171/Screenshot_2025-06-18_at_5.24.42_PM_mb9gid.png",
+            "alt": "React project example 1"
+          },
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615288/Screenshot_2025-06-18_at_5.25.10_PM_gfuezy.png",
+            "alt": "React project example 2"
+          },
+          {
+            "url": "https://res.cloudinary.com/dcwkmh1uu/image/upload/v1752615304/Screenshot_2025-06-18_at_5.25.21_PM_gmnf3m.png",
+            "alt": "React project example 3"
+          }
+        ]
       }
     }
   }

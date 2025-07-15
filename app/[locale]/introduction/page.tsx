@@ -8,6 +8,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { CloudinaryGallery } from "@/components/ui/cloudinary-gallery";
+import Image from "next/image";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -27,6 +29,16 @@ export default async function Introduction({
   const listItems = t.raw("section1.descriptionList.list") as Array<{
     id: number;
     description: string;
+  }>;
+
+  const imageList = t.raw("section2.imageList") as Array<{
+    url: string;
+    alt: string;
+  }>;
+
+  const projectImageList = t.raw("section3.imageList") as Array<{
+    url: string;
+    alt: string;
   }>;
 
   return (
@@ -58,6 +70,10 @@ export default async function Introduction({
                 {t("section2.title")}
               </h3>
               {t("section2.description")}
+              <CloudinaryGallery
+                images={imageList}
+                className="mt-4"
+              />
             </div>
 
             <div>
@@ -65,6 +81,10 @@ export default async function Introduction({
                 {t("section3.title")}
               </h3>
               {t("section3.description")}
+              <CloudinaryGallery
+                images={projectImageList}
+                className="mt-4"
+              />
             </div>
           </div>
         </CardContent>
